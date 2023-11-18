@@ -1,0 +1,9 @@
+.project
+.obsidian/
+.kubler-build-test.error
+.kubler-healthcheck.error
+Dockerfile
+rootfs.tar
+push.conf
+builder/*/PACKAGES.md
+log/
