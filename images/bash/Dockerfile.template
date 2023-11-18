@@ -1,0 +1,7 @@
+FROM ${IMAGE_PARENT}
+LABEL maintainer="${MAINTAINER}"
+LABEL description="${DESCRIPTION}"
+
+ADD rootfs.tar /
+
+CMD ["/bin/bash"]
