@@ -1,7 +1,7 @@
-### savatin/grafana:2023-11-17
+### savatin/grafana:2023-11-28
 
-Built: Fri Nov 17 10:28:49 PM MSK 2023
-Image Size: 396MB
+Built: вт ноя 28 21:17:12 MSK 2023
+Image Size: 394MB
 
 #### Installed
 Package | USE Flags
@@ -19,9 +19,9 @@ sys-apps/debianutils-5.8 | `installkernel -static`
 sys-kernel/installkernel-gentoo-7 | `-grub`
 **FROM kubler/s6** |
 app-admin/entr-5.4 | `-test`
-dev-lang/execline-2.9.3.0 | ``
+dev-lang/execline-2.9.3.0-r1 | ``
 dev-libs/skalibs-2.13.1.1 | ``
-sys-apps/s6-2.11.3.2 | `execline`
+sys-apps/s6-2.11.3.2-r1 | `execline`
 **FROM kubler/glibc** |
 dev-libs/libunistring-1.1-r1 | `-doc -static-libs`
 net-dns/libidn2-2.3.4-r1 | `nls -static-libs -verify-sig`
